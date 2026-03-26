@@ -74,3 +74,69 @@
 #search-btn:hover {
     background-color: #6b825d;
 }
+
+/* --- SZENDVICSGOMB STÍLUSA --- */
+.hamburger {
+    display: none; /* Alapból elrejtjük (asztali nézet) */
+    flex-direction: column;
+    cursor: pointer;
+    gap: 4px;
+    z-index: 1001;
+}
+
+.hamburger span {
+    width: 28px;
+    height: 3px;
+    background-color: #333;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+/* --- MOBIL NÉZET FRISSÍTÉSE --- */
+@media (max-width: 1024px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        position: fixed;
+        right: -100%;
+        top: 70px;
+        flex-direction: column;
+        background-color: #ffffff;
+        width: 100%;
+        height: calc(100vh - 70px);
+        text-align: center;
+        transition: 0.3s ease-in-out;
+        gap: 20px;
+        padding-top: 30px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        display: flex; /* Mindig flex, csak a 'right' tolja ki */
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+
+    /* A keresőt mobilon a menüsor végére kényszerítjük */
+    .search-box {
+        display: flex !important; 
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+    }
+}
+
+/* JAVÍTOTT X ANIMÁCIÓ */
+.hamburger.toggle span:nth-child(1) {
+    transform: translateY(7px) rotate(-45deg);
+}
+
+.hamburger.toggle span:nth-child(2) {
+    opacity: 0; /* Ez tünteti el a középső vonalat teljesen! */
+    transform: translateX(-20px); /* Kirepül balra, biztos ami biztos */
+}
+
+.hamburger.toggle span:nth-child(3) {
+    transform: translateY(-7px) rotate(45deg);
+}
