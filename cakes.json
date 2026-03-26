@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Somlói Galuska",
-    "image": "images/dobostorta.jpg",
+    "image": "images/somloigaluska.webp",
     "prepTime": "60 perc",
     "ingredients": ["piskóta", "csokoládé öntet", "tejszínhab", "dió"],
     "instructions": [

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Gulyásleves",
-    "image": "images/gulyas.jpg",
+    "image": "images/gulyasleves.jpeg",
     "prepTime": "120 perc",
     "ingredients": ["marhahús", "burgonya", "paprika", "hagyma", "zsír", "fűszerek"],
     "instructions": [
@@ -16,7 +16,7 @@
   {
     "id": 2,
     "name": "Rántott csirke",
-    "image": "images/rantott_csirke.jpg",
+    "image": "images/rantottcsirke.jpg",
     "prepTime": "45 perc",
     "ingredients": ["csirkemell", "liszt", "tojás", "zsemlemorzsa", "olaj"],
     "instructions": [
