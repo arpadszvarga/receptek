@@ -28,7 +28,7 @@
 }
 
 .logo span {
-    color: #ff7675; /* A projekt alapszíne */
+    color: #8da47e; /* A projekt alapszíne */
 }
 
 .nav-links {
@@ -45,7 +45,7 @@
 }
 
 .nav-links a:hover {
-    color: #ff7675;
+    color: #6b825d;
 }
 
 /* Keresőmező stílusa */
@@ -63,7 +63,7 @@
 
 #search-btn {
     padding: 8px 15px;
-    background-color: #ff7675;
+    background-color: #8da47e;
     color: white;
     border: none;
     border-radius: 20px;
@@ -72,5 +72,5 @@
 }
 
 #search-btn:hover {
-    background-color: #d63031;
+    background-color: #6b825d;
 }

@@ -20,7 +20,7 @@
 }
 
 .recipe-section h2 {
-    border-bottom: 2px solid #ff6b6b;
+    border-bottom: 2px solid #8da47e;
     padding-bottom: 5px;
     color: #333;
 }
@@ -33,7 +33,7 @@ ul, ol {
 .back-btn {
     margin-top: 40px;
     padding: 10px 25px;
-    background-color: #ff6b6b;
+    background-color: #8da47e;
     color: white;
     border: none;
     border-radius: 5px;
@@ -41,5 +41,5 @@ ul, ol {
 }
 
 .back-btn:hover {
-    background-color: #ee5253;
+    background-color: #6b825d;
 }
