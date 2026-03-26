@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "Gulyásleves",
+    "image": "images/gulyas.jpg",
+    "prepTime": "120 perc",
+    "ingredients": ["marhahús", "burgonya", "paprika", "hagyma", "zsír", "fűszerek"],
+    "instructions": [
+      "A hagymát apróra vágjuk és zsíron megdinszteljük.",
+      "Hozzáadjuk a felkockázott húst és fehéredésig pirítjuk.",
+      "Megszórjuk pirospaprikával, felöntjük vízzel.",
+      "Amikor a hús félig puha, belegyúrjuk a zöldségeket és a krumplit.",
+      "Készre főzzük és csipetkével tálaljuk."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Rántott csirke",
+    "image": "images/rantott_csirke.jpg",
+    "prepTime": "45 perc",
+    "ingredients": ["csirkemell", "liszt", "tojás", "zsemlemorzsa", "olaj"],
+    "instructions": [
+      "A húst felszeleteljük és besózzuk.",
+      "Hagyományos módon bepanírozzuk (liszt, tojás, morzsa).",
+      "Forró olajban aranybarnára sütjük mindkét oldalát."
+    ]
+  }
+]

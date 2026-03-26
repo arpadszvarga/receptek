@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "Somlói Galuska",
+    "image": "images/dobostorta.jpg",
+    "prepTime": "60 perc",
+    "ingredients": ["piskóta", "csokoládé öntet", "tejszínhab", "dió"],
+    "instructions": [
+      "Süssük meg a háromféle piskótát.",
+      "Készítsük el a vaníliakrémet és a szirupot.",
+      "Rétegezzük a piskótákat a krémmel és a dióval.",
+      "Tálaláskor tejszínhabbal és csokiöntettel díszítsük."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Almás pite",
+    "image": "images/almaspite.jpg",
+    "prepTime": "90 perc",
+    "ingredients": ["liszt", "vaj", "alma", "fahéj", "cukor"],
+    "instructions": [
+      "Gyúrjuk össze a tészta hozzávalóit és osszuk ketté.",
+      "Az almát reszeljük le, pároljuk meg a fahéjjal és cukorral.",
+      "Nyújtsuk ki az alsó lapot, tegyük rá a tölteléket.",
+      "Fedjük le a másik lappal, szurkáljuk meg, és süssük aranybarnára."
+    ]
+  }
+]
