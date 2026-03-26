@@ -41,11 +41,11 @@ h1 {
 
 /* Háttérképek a kártyáknak - ide a saját képeid elérési útját írd! */
 .food-bg {
-    background: url('images/food_menu_bg.jpg') center/cover;
+    background: url('images/food.jpg') center/cover;
 }
 
 .cake-bg {
-    background: url('images/cake_menu_bg.jpg') center/cover;
+    background: url('images/cakes.jpeg') center/cover;
 }
 
 .card-overlay {
