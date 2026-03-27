@@ -27,21 +27,33 @@
   },
   {
     "id": 2,
-    "name": "Almás pite",
-    "image": "images/almaspite.jpg",
-    "prepTime": "90 perc",
+    "name": "Gyors almás morzsasüti",
+    "image": "images/gyorsalmasmorzsasuti.jpg",
+    "prepTime": "55 perc",
     "ingredients": [
-      "liszt",
-      "vaj",
-      "alma",
-      "fahéj",
-      "cukor"
+      "Tészta:",
+      "16 dkg finomliszt",
+      "11 dkg vaj",
+      "5 dkg cukor",
+      "Almás töltelék:",
+      "2 közepes db  alma",
+      "2 csapott ek finomliszt",
+      "2 púpozott ek cukor",
+      "1 kávéskanál fahéj",
+      "Morzsa:",
+      "50 g zabpehely",
+      "5 dkg cukor",
+      "6 dkg vaj"
     ],
     "instructions": [
-      "Gyúrjuk össze a tészta hozzávalóit és osszuk ketté.",
-      "Az almát reszeljük le, pároljuk meg a fahéjjal és cukorral.",
-      "Nyújtsuk ki az alsó lapot, tegyük rá a tölteléket.",
-      "Fedjük le a másik lappal, szurkáljuk meg, és süssük aranybarnára."
+      "Tészta:",
+      "A tésztához a vajat felolvasztjuk, és elkeverjük a cukorral. Hozzáadjuk a lisztet, összekeverjük, és fél órára hűtőbe tesszük. Ha letelt az idő, egy sütőpapírral bélelt tepsibe nyomkodjuk.",
+      "150 fokra előmelegített sütőbe tesszük, és 15 percig sütjük.",
+      "Almás töltelék:",
+      "Az almát kicsumázzuk, majd vékony szeletekre vágjuk. A lisztet összekeverjük a cukorral és a fahéjjal, majd az almaszeleteket beleforgatjuk, és sütőből kivett tésztára tesszük.",
+      "Morzsa:",
+      "A maradék vajat összemorzsoljuk a cukorral és a zabpehellyel, majd az alma tetejére morzsázzuk.",
+      "170 fokra előmelegített sütőbe tesszük, és 30-35 percig sütjük."
     ]
   },
   {
@@ -50,6 +62,7 @@
     "image": "images/flamingoszelet.jpg",
     "prepTime": "50 perc",
     "ingredients": [
+      "Tészta:",
       "30 dkg finomliszt",
       "4 ek porcukor",
       "1 csipet só",
@@ -58,7 +71,7 @@
       "1 db tojás",
       "3 evőkanál császárkörte aroma  (30 ml)",
       "1 dl tej  (kb )",
-      "",
+      "Krém:",
       "6 dl tej",
       "6 evőkanál finomliszt",
       "20 dkg vaj",
@@ -66,10 +79,11 @@
       "1 csomag vaníliás cukor"
     ],
     "instructions": [
+      "Tészta:",
       "A sütőt 180 °C-ra előmelegítjük. A tésztához összeszitáljuk a száraz hozzávalókat, majd elmorzsoljuk benne a zsírt. Az aromát elkeverjük 1 dl tejben, hozzáadjuk a lisztes részhez, és az egészet összegyúrjuk annyi tejet adagolva még hozzá, hogy közepesen lágy tésztát kapjunk. Ezután 3 egyforma részre osztjuk.",
       "A tésztát 20x30-as lapokká kinyújtjuk, és zsírozott, lisztezett tepsi hátán, egyenként, 6-8 perc alatt megsütjük (a tetejét sütés előtt villával szurkáljuk meg).",
       "A lapokat megtöltjük a krémmel, majd hűvös helyen egy éjszakán át pihentetjük. Tetejét megszórjuk porcukorral, és tetszés szerint szeleteljük (díszíthetjük akár habrózsával vagy fehércsokoládé-forgáccsal is).",
-      "",
+      "Krém:",
       "A lisztet simára keverjük a tejjel, és sűrű péppé főzzük. A vajat a porcukorral és a vaníliával kihabosítjuk, majd a kihűlt lisztkrémmel csomómentesre keverjük."
     ]
   }
