@@ -4,7 +4,12 @@
     "name": "Somlói Galuska",
     "image": "images/somloigaluska.webp",
     "prepTime": "60 perc",
-    "ingredients": ["piskóta", "csokoládé öntet", "tejszínhab", "dió"],
+    "ingredients": [
+      "piskóta",
+      "csokoládé öntet",
+      "tejszínhab",
+      "dió"
+    ],
     "instructions": [
       "Süssük meg a háromféle piskótát.",
       "Készítsük el a vaníliakrémet és a szirupot.",
@@ -17,12 +22,47 @@
     "name": "Almás pite",
     "image": "images/almaspite.jpg",
     "prepTime": "90 perc",
-    "ingredients": ["liszt", "vaj", "alma", "fahéj", "cukor"],
+    "ingredients": [
+      "liszt",
+      "vaj",
+      "alma",
+      "fahéj",
+      "cukor"
+    ],
     "instructions": [
       "Gyúrjuk össze a tészta hozzávalóit és osszuk ketté.",
       "Az almát reszeljük le, pároljuk meg a fahéjjal és cukorral.",
       "Nyújtsuk ki az alsó lapot, tegyük rá a tölteléket.",
       "Fedjük le a másik lappal, szurkáljuk meg, és süssük aranybarnára."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Flamingó szelet",
+    "image": "images/flamingoszelet.jpg",
+    "prepTime": "90 perc",
+    "ingredients": [
+      "30 dkg finomliszt",
+      "4 ek porcukor",
+      "1 csipet só",
+      "10 g szalalkáli",
+      "1 ek sertészsír",
+      "1 db tojás",
+      "3 evőkanál császárkörte aroma  (30 ml)",
+      "1 dl tej  (kb )",
+      "",
+      "6 dl tej",
+      "6 evőkanál finomliszt",
+      "20 dkg vaj",
+      "25 dkg porcukor",
+      "1 csomag vaníliás cukor"
+    ],
+    "instructions": [
+      "A sütőt 180 °C-ra előmelegítjük. A tésztához összeszitáljuk a száraz hozzávalókat, majd elmorzsoljuk benne a zsírt. Az aromát elkeverjük 1 dl tejben, hozzáadjuk a lisztes részhez, és az egészet összegyúrjuk annyi tejet adagolva még hozzá, hogy közepesen lágy tésztát kapjunk. Ezután 3 egyforma részre osztjuk.",
+      "A tésztát 20x30-as lapokká kinyújtjuk, és zsírozott, lisztezett tepsi hátán, egyenként, 6-8 perc alatt megsütjük (a tetejét sütés előtt villával szurkáljuk meg).",
+      "A lapokat megtöltjük a krémmel, majd hűvös helyen egy éjszakán át pihentetjük. Tetejét megszórjuk porcukorral, és tetszés szerint szeleteljük (díszíthetjük akár habrózsával vagy fehércsokoládé-forgáccsal is).",
+      "",
+      "A lisztet simára keverjük a tejjel, és sűrű péppé főzzük. A vajat a porcukorral és a vaníliával kihabosítjuk, majd a kihűlt lisztkrémmel csomómentesre keverjük."
     ]
   }
 ]
