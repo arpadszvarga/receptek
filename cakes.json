@@ -1,20 +1,28 @@
 [
   {
     "id": 1,
-    "name": "Somlói Galuska",
-    "image": "images/somloigaluska.webp",
-    "prepTime": "60 perc",
+    "name": "Karácsonyi kuglóf",
+    "image": "images/karacsonyikuglof.jpg",
+    "prepTime": "50 perc",
     "ingredients": [
-      "piskóta",
-      "csokoládé öntet",
-      "tejszínhab",
-      "dió"
+      "30 dkg liszt",
+      "15 dkg cukor",
+      "15 dkg vaj",
+      "10 dkg étcsoki",
+      "6 dkg dió vagy mogyoró",
+      "4 db tojás",
+      "2 dl tej",
+      "1 csomag sütőpor",
+      "1 csomag vaníliás cukor",
+      "1 db narancs reszelt héja",
+      "másfél tk. mézeskalács-fűszerkeverék"
     ],
     "instructions": [
-      "Süssük meg a háromféle piskótát.",
-      "Készítsük el a vaníliakrémet és a szirupot.",
-      "Rétegezzük a piskótákat a krémmel és a dióval.",
-      "Tálaláskor tejszínhabbal és csokiöntettel díszítsük."
+      "A sütőt melegítsük elő 180°C-ra, a kuglófformát kenjük ki vajjal, szórjuk meg liszttel.",
+      "A tésztához a vajat, a cukrot és a vaníliás cukrot keverjük habosra. Szép világos krémet kell kapni. Egyesével tegyük hozzá a tojásokat, majd adjuk hozzá a tejet.",
+      "A száraz hozzávalókat, a lisztet, a sütőport, a mézeskalácsfűszert, a narancshéjat külön tálban keverjük össze, és forgassuk a vajas masszához. Végül adjuk hozzá a durvára vágott diót vagy a mogyorót és a csokit.",
+      "A masszát öntsük a formába, és süssük 45–55 percig 180 fokon. Mielőtt kivennénk, tűpróbával ellenőrizzük: ha tisztán jön ki a sütibe szúrt tű vagy hegyes kés, elkészült.",
+      "A kihűlt kuglófot szórjuk meg porcukorral, és díszítsük ízlés szerint. A tetejére rozmaringból és piros bogyókból ünnepi koszorúformát készíthetünk."
     ]
   },
   {
