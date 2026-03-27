@@ -90,6 +90,7 @@ p{
     font-size: 1.2rem;
     transition: background 0.2s;
     font-family: 'Nunito';
+    text-decoration: none;
 }
 
 .view-btn:hover {
