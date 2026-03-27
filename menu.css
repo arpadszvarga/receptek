@@ -6,7 +6,6 @@
     justify-content: center;
     min-height: 100vh;
     padding: 20px;
-    background-color: #f9f9f9;
 }
 
 h1 {
@@ -97,7 +96,6 @@ p{
     border-top: 1px solid #eee;
     color: #555;
     font-family: sans-serif;
-    background-color: #fff; /* Vagy amilyen az oldalad háttere */
 }
 
 .clean-footer p {
