@@ -54,3 +54,38 @@ h1, h2{
 .back-btn:hover {
     background-color: #6b825d;
 }
+
+.clean-footer {
+    padding: 30px 0;
+    margin-top: 50px;
+    border-top: 1px solid #eee;
+    color: #555;
+    font-family: sans-serif;
+    background-color: #fff; /* Vagy amilyen az oldalad háttere */
+}
+
+.clean-footer p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.footer-socials a {
+    color: #8da47e; /* A receptjeid pirosas színe */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 0.85rem;
+    transition: 0.3s;
+}
+
+.footer-socials a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Mobilon kicsit közelebb tesszük a linkeket */
+@media (max-width: 480px) {
+    .footer-socials a {
+        margin: 0 8px;
+    }
+}
