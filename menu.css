@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oooh+Baby&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 .menu-container {
     display: flex;
     flex-direction: column;
@@ -79,4 +80,12 @@ h1 {
         width: 100%;
         height: 300px;
     }
+}
+
+h1, h2{
+    font-family: 'Nunito';
+}
+
+p{
+    font-family: 'Raleway';
 }

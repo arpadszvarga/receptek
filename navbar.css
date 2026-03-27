@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oooh+Baby&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 .nav-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -27,10 +29,11 @@
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     text-decoration: none;
     color: #333;
+    font-family: 'Oooh Baby';
 }
 
 .logo span {
@@ -42,6 +45,8 @@
     color: #555;
     font-weight: 500;
     transition: color 0.3s;
+    font-family: 'Nunito';
+    font-size: 18px;
 }
 
 .nav-links a:hover {
@@ -52,6 +57,7 @@
 .search-box {
     display: flex;
     gap: 5px;
+    font-family: 'Nunito';
 }
 
 #search-input {
@@ -69,6 +75,7 @@
     border-radius: 20px;
     cursor: pointer;
     transition: background 0.2s;
+    font-family: 'Nunito';
 }
 
 #search-btn:hover {
