@@ -1,16 +1,31 @@
 [
   {
     "id": 1,
-    "name": "Gulyásleves",
-    "image": "images/gulyasleves.jpeg",
-    "prepTime": "120 perc",
-    "ingredients": ["marhahús", "burgonya", "paprika", "hagyma", "zsír", "fűszerek"],
+    "name": "Kovászos focaccia",
+    "image": "images/kovaszosfocaccia.jpg",
+    "prepTime": "85 perc",
+    "ingredients": [
+      "385 ml víz",
+      "1 ek porcukor",
+      "500 g kenyérliszt bl80  (én most jóféle pizza- és focaccialisztet használtam)",
+      "100 g kovász",
+      "10 g só",
+      "50 ml olívaolaj",
+      "3 szál rozmaring",
+      "3 csipet só"
+    ],
     "instructions": [
-      "A hagymát apróra vágjuk és zsíron megdinszteljük.",
-      "Hozzáadjuk a felkockázott húst és fehéredésig pirítjuk.",
-      "Megszórjuk pirospaprikával, felöntjük vízzel.",
-      "Amikor a hús félig puha, belegyúrjuk a zöldségeket és a krumplit.",
-      "Készre főzzük és csipetkével tálaljuk."
+"A porcukrot elkeverjük a kézmeleg vízben, majd hozzákeverjük a lisztet. Alaposan összegyúrjuk a tésztát - épp ezért érdemes lehet kézi mixer dagasztókarjával dolgozni. 30-60 percet pihenni hagyjuk az ekkor még elég ragacsos tésztánkat.",
+"A pihentetés után hozzáadunk 100 g friss, aktív (tehát nemrég etetett, de azóta 'felfutott') kovászt. Alaposan a tésztához gyúrjuk.",
+"Kimérjük a sót, és a kovászos tésztához keverjük, majd ezzel is nagyon alaposan összedolgozzuk, már-már kidagasztjuk. Akkor tökéletes a tésztánk, ha ugyan ragacsosnak tűnik, ugyanakkor az edény falától szépen elhúzható.",
+"Ha ez így van, 30 perc pihentetés, majd kezdődhet a kovászos sütés legfárasztóbb és legkeményebb része, a hajtogatás. A hajtogatás lényege, hogy a pihentetett tésztát kétoldalt megfogjuk, picit befelé, egymás felé húzzuk a két kezünket, közben pedig felfelé is emeljük és megnyújtjuk a tésztát. Ha mindent jól csináltunk, akkor a tészta szépen nyúlik felfelé, amit aztán hagyunk behajtódni a kihúzott rész alá, a kezünkben lévő tésztát pedig lassan visszaengedjük. Megismételjük a mozdulatsort, majd 90 fokkal elforgatjuk az edényt, és elölről kezdjük. Majd még kétszer forgatunk és nyújtunk, így körbeérve a tésztával - na ez EGY hajtogatás.",
+"Hajtogatások között érdemes 30-60 perc pihenőidőt hagyni a tésztánknak. Összesen 4 órát hajtogassuk-pihentessük a tésztát - minél többször hajtogatjuk, annál buborékosabb lesz a végeredmény.",
+"Az utolsó hajtogatás előtt egy tepsibe beleöntjük az olívaolaj felét-kétharmadát. A hajtogatás után az olajba beleengedjük a tésztát, amit aztán ügyesen megfordítunk, hogy a másik oldalát is bevonja az olívaolaj.",
+"A következő lépésnél két verzió közül választhatunk, attól függően, hogy mikor kezdtük a tésztagyúrást. Ha még előttünk van a nap fele, akkor hagyjuk 4-5 órát szobahőmérsékleten pihenni a sütés előtt.",
+"Ha viszont már későre jár, akkor fedjük le a tepsit, és tegyük éjszakára hűtőbe. Másnap a sütés előtt 1-2 órával vegyük elő, és tegyük kicsit melegebb helyre (nagyszerű megoldás, hogy bekapcsoljuk a sütőt, és az aljába teszünk egy pohár forrásban lévő vizet, majd betesszük a tésztát, és rácsukjuk az ajtót).",
+"A sütőt előmelegítjük 220°C-ra, és az aljába teszünk egy tálkában vizet. A sütésre kész focaccia tetejét meglocsoljuk a maradék olívaolajjal, majd az ujjainkat belenyomogatjuk - ezekkel a kis kráterekkel nyeri el jellegzetes alakját a laposkenyér.",
+"A focaccia tetejét rozmaringlevelekkel és nagy szemű sóval díszítjük, majd az egészet sütőbe tesszük 20-25 percre.",
+"A kész focacciát hagyjuk úgy-ahogy kihűlni (úgyse bírjuk ki, míg teljesen lehűl), majd éles, recés késsel szeleteljük, és gyakorlatilag bármivel fogyasztjuk."
     ]
   },
   {
@@ -18,7 +33,13 @@
     "name": "Rántott csirke",
     "image": "images/rantottcsirke.jpg",
     "prepTime": "45 perc",
-    "ingredients": ["csirkemell", "liszt", "tojás", "zsemlemorzsa", "olaj"],
+    "ingredients": [
+      "csirkemell",
+      "liszt",
+      "tojás",
+      "zsemlemorzsa",
+      "olaj"
+    ],
     "instructions": [
       "A húst felszeleteljük és besózzuk.",
       "Hagyományos módon bepanírozzuk (liszt, tojás, morzsa).",
