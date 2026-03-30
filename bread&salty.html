@@ -4,51 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menü</title>
-
+    <title>Kenyerek és Sós Sütemények</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="food&cake.css">
     <link rel="stylesheet" href="navbar.css">
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"
         defer></script>
     <script src="searchengine.js" defer></script>
     <script src="navbar.js" defer></script>
+    <script src="bread&salty.js" defer></script>
 </head>
 
-<body id="indexHtml">
+<body id="breadHtml">
     <div id="navbar-placeholder"></div>
 
-    <main class="menu-container">
-        <h1>Mit készítsünk ma?</h1>
-        <div class="selection-wrapper">
 
-            <a href="food.html" class="menu-card food-bg">
-                <div class="card-overlay">
-                    <h2>Ételek</h2>
-                    <p>Laktató főételek és levesek</p>
-                </div>
-            </a>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Kenyerek és Sós Sütemények</h1>
 
-            <a href="cakes.html" class="menu-card cake-bg">
-                <div class="card-overlay">
-                    <h2>Sütemények</h2>
-                    <p>Édes finomságok és desszertek</p>
-                </div>
-            </a>
-
-            <a href="bread&salty.html" class="menu-card breadSalty-bg">
-                <div class="card-overlay">
-                    <h2>Kenyerek és sós sütemények</h2>
-                    <p>Házikenyerek, pogácsák és sós rudak.</p>
-                </div>
-            </a>
-
+        <div id="bread-container" class="recipe-grid">
         </div>
-    </main>
-        <footer class="clean-footer">
+    </div>
+
+    <footer class="clean-footer">
         <div class="container text-center">
             <p>&copy;
                 <script>document.write(new Date().getFullYear())</script> All Rights Reserved | Distributed by
@@ -62,6 +42,8 @@
         </div>
     </footer>
 
+    <script src="searchengine.js"></script>
+    <script src="breads.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "Házi Kovászos Kenyér",
+    "image": "images/kovaszoskenyer.jpeg",
+    "prepTime": "4 óra",
+    "ingredients": ["50 dkg liszt", "3 dl víz", "só"],
+    "instructions": ["Dagasztás:", "Kelesszük meg.", "Süssük ki."]
+  }
+]

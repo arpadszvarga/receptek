@@ -3,15 +3,22 @@ async function globalSearch(query) {
     const searchTerm = query.toLowerCase().trim();
     if (!searchTerm) return;
 
-    // Megkeressük, van-e az oldalon rács a találatoknak
-    const container = document.getElementById('cake-container') || document.getElementById('food-container');
+    // Megkeressük a konténereket
+    const cakeContainer = document.getElementById('cake-container');
+    const foodContainer = document.getElementById('food-container');
+    const breadContainer = document.getElementById('bread-container');
+    
+    // Bármelyik létezik, azt használjuk
+    const container = cakeContainer || foodContainer || breadContainer;
 
     if (container) {
-        // HA MÁR A MEGFELELŐ OLDALON VAGYUNK: Csak futtassuk le helyben a keresést
+        // Ha megtaláltuk a helyet, elrejtjük a fő kategóriákat (ha a menüben vagyunk)
+        const mainMenu = document.getElementById('main-menu-grid');
+        if (mainMenu) mainMenu.style.display = 'none'; 
+
         performSearch(searchTerm, container);
     } else {
-        // HA MÁS OLDALON VAGYUNK: Elküldjük az embert az egyik oldalra, ahol van rács
-        // Az URL-be tesszük a keresőszót
+        // Ha egy olyan oldalon vagy (pl. index.html), ahol nincs rács:
         window.location.href = `cakes.html?search=${encodeURIComponent(searchTerm)}`;
     }
 }
@@ -25,12 +32,14 @@ function performSearch(searchTerm, container) {
     // Egyszerre töltjük be mindkét JSON-t
     Promise.all([
         fetch('cakes.json').then(res => res.json()),
-        fetch('food.json').then(res => res.json())
-    ]).then(([cakes, food]) => {
+        fetch('food.json').then(res => res.json()),
+        fetch('bread&salty.json').then(res => res.json())
+    ]).then(([cakes, food, breadSalty]) => {
         // Összefésüljük a kettőt egy nagy listába, megtartva a típust
         const allRecipes = [
             ...cakes.map(item => ({ ...item, type: 'cake' })),
-            ...food.map(item => ({ ...item, type: 'food' }))
+            ...food.map(item => ({ ...item, type: 'food' })),
+            ...breadSalty.map(item => ({ ...item, type: 'bread' }))
         ];
 
         // Szűrés név vagy hozzávalók alapján
@@ -67,7 +76,7 @@ function renderResults(results, container) {
             <div class="recipe-info">
                 <h3>${recipe.name}</h3>
                 <p>🕒 ${recipe.prepTime}</p>
-                <a href="recept.html?id=${recipe.id}&type=${recipe.type}" class="view-btn">Megnézem</a>
+                <a href="displayRecipe.html?id=${recipe.id}&type=${recipe.type}" class="view-btn">Megnézem</a>
             </div>
         `;
         container.appendChild(card);
@@ -78,10 +87,11 @@ function renderResults(results, container) {
 document.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
     const searchWord = urlParams.get('search');
-    const container = document.getElementById('cake-container') || document.getElementById('food-container');
+    const container = document.getElementById('cake-container') || document.getElementById('food-container') || document.getElementById('bread-container') ;
 
     if (searchWord && container) {
         // Ha az URL-ben van keresőszó és van hova kiírni, elindítjuk
         performSearch(searchWord, container);
     }
 });
+

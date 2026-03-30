@@ -28,6 +28,22 @@
     align-items: center;
 }
 
+#indexHtml #indexLi{
+    color: #8da47e;
+}
+
+#foodHtml #foodLi{
+    color: #8da47e;
+}
+
+#cakesHtml #cakesLi{
+    color: #8da47e;
+}
+
+#breadHtml #breadLi{
+    color: #8da47e;
+}
+
 .logo {
     font-size: 1.8rem;
     font-weight: bold;

@@ -76,6 +76,7 @@ h1, h2{
     font-weight: bold;
     font-size: 0.85rem;
     transition: 0.3s;
+    font-family: 'Raleway';
 }
 
 .footer-socials a:hover {

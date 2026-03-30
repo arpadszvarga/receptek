@@ -17,17 +17,17 @@ h1 {
 
 .selection-wrapper {
     display: flex;
-    gap: 40px;
+    gap: 20px;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1100px;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .menu-card {
     position: relative;
-    width: 400px;
-    height: 500px;
+    width: 350px;
+    height: 450px;
     border-radius: 20px;
     overflow: hidden;
     text-decoration: none;
@@ -48,29 +48,39 @@ h1 {
     background: url('images/cakes.jpeg') center/cover;
 }
 
+.breadSalty-bg{
+    background: url('images/bread&salty.jpeg') center/cover;
+}
+
 .card-overlay {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 40%;
-    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    /* Fix magasságot adunk az overlay-nek, hogy a szövegek ugyanott kezdődjen Silence */
+    height: 180px; 
+    background: linear-gradient(transparent, rgba(0,0,0,0.85));
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    padding: 30px;
+    justify-content: center; /* Középre zárja a szöveget a 180px-en belül */
+    padding: 20px;
     color: white;
     box-sizing: border-box;
+    text-align: center; /* Opcionális: ettől még profibb, ha középen van a felirat */
 }
 
 .card-overlay h2 {
-    font-size: 2rem;
+    font-size: 1.8rem; /* Kicsit kisebb, hogy biztosan kiférjen egy sorba */
     margin: 0;
+    line-height: 1.2;
+    min-height: 2.2rem; /* Biztosítja, hogy az 1 és 2 soros címek is ugyanannyi helyet foglaljanak */
 }
 
 .card-overlay p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     opacity: 0.9;
-    margin-top: 5px;
+    margin-top: 8px;
+    margin-bottom: 0;
+    line-height: 1.4;
 }
 
 /* Mobilnézet */
@@ -110,6 +120,7 @@ p{
     font-weight: bold;
     font-size: 0.85rem;
     transition: 0.3s;
+    font-family: 'Raleway';
 }
 
 .footer-socials a:hover {

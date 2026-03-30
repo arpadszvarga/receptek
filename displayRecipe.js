@@ -1,11 +1,23 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // 1. Paraméterek kinyerése az URL-ből (?id=1&type=cake)
     const urlParams = new URLSearchParams(window.location.search);
     const recipeId = parseInt(urlParams.get('id'));
-    const recipeType = urlParams.get('type'); // 'cake' vagy 'food'
+    const recipeType = urlParams.get('type'); 
 
-    // 2. Megfelelő JSON fájl kiválasztása
-    const jsonFile = recipeType === 'cake' ? 'cakes.json' : 'food.json';
+    let jsonFile = '';
+    
+    // PONTOSÍTOTT LOGIKA:
+    if (recipeType === 'cake') {
+        jsonFile = 'cakes.json';
+    } else if (recipeType === 'bread' || recipeType === 'breadSalty') {
+        jsonFile = 'bread&salty.json'; // Itt a sós sütik/kenyerek fájlja
+    } else if (recipeType === 'food') {
+        jsonFile = 'food.json';        // Itt az ételek fájlja
+    } else {
+        // Biztonsági tartalék, ha valamiért nem lenne típus
+        jsonFile = 'food.json';
+    }
+
+    console.log("Típus:", recipeType, "Betöltendő fájl:", jsonFile);
 
     fetch(jsonFile)
         .then(response => response.json())
@@ -17,9 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.getElementById('recipe-title').innerText = "A recept nem található.";
             }
         })
-        .catch(error => console.error("Hiba a recept betöltésekor:", error));
+        .catch(error => console.error("Hiba:", error));
 });
-
 function renderRecipe(recipe) {
     document.getElementById('recipe-title').innerText = recipe.name;
     document.getElementById('recipe-image').src = recipe.image;
