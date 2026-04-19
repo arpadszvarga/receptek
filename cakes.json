@@ -86,5 +86,31 @@
       "Krém:",
       "A lisztet simára keverjük a tejjel, és sűrű péppé főzzük. A vajat a porcukorral és a vaníliával kihabosítjuk, majd a kihűlt lisztkrémmel csomómentesre keverjük."
     ]
+  },
+  {
+    "id": 4,
+    "name": "MÁLNÁS FEHÉRCSOKIS SAJTTORTA – VILLÁMGYORSAN, SÜTÉS NÉLKÜL!",
+    "image": "images/malnasfehercsokissajttorta.jpg",
+    "prepTime": "30 perc",
+    "ingredients": [
+      "140 g zabkeksz (nálam zabfalatok)",
+      "60 g vaj",
+      "kb. 100  g málna (friss vagy fagyasztott kiengedve)",
+      "500 g mascarpone",
+      "100 g tejföl",
+      "200 g fehér csokoládé",
+      "2 pici citrom reszelt héja és az egyiknek a leve"
+    ],
+    "instructions": [
+      "Kekszes alap:",
+      "A kekszet morzsásra aprítjuk, elkeverjük az olvasztott vajjal, és beleegyengetjük egy – az alján sütőpapírral borított – tortaformába.",
+      "Hűtőbe tesszük.",
+      "Krém:",
+      "Amíg szilárdul a kekszes alap, elkészítjük a krémet. Ehhez gőz felett (vagy mikróban) megolvasztjuk a fehércsokit.",
+      "A mascarponét a tejföllel, a citrom reszelt héjával és levével kicsit kihabosítjuk., Érdemes a citromosságot kóstolgatni, és apránként adagolni a citromlevet.",
+      "Gyorsan beleforgatjuk a kihűlt fehércsokit, végül a málnát. Nem baj, ha összetörik a málna, sőt, úgy a legjobb! Akár direkt is trancsírozhatunk rajta egy keveset (azért ne péppé!).",
+      "Hűtőbe tesszük.",
+      "Akinek a férje rohamtempóban távozik, az fagyasztóba. (Ne legyen belőle fagyi!) Dermedés után is lágy marad, de szeletelhető. Minimalista stílus iránt kevésbé fogékony gyerekekkel megáldottak, illetve a fegyelmezés terén nagyobb sikereket elkönyvelők a tortát málnaszemekkel is díszíthetik."
+    ]
   }
 ]
